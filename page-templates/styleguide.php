@@ -6,28 +6,28 @@
 
   <?php
     $components = array(
-//      'alerts',
-//      'badge',
-//      'breadcrumb',
-//      'buttons',
-//      'button-group',
+      'alerts',
+      'badge',
+      'breadcrumb',
+      'buttons',
+      'button-group',
       //'card',
-//      'carousel',
-//      'collapse',
-//      'dropdowns',
+      'carousel',
+      'collapse',
+      'dropdowns',
       //'forms',
       //'input-group',
-//      'jumbotron',
-//      'list-group',
-//      'modal',
-//      'navs',
-//      'navs-js',
-//      'navbar',
-//      'pagination',
-//      'popovers',
-//      'progress',
+      'jumbotron',
+      'list-group',
+      'modal',
+      'navs',
+      'navs-js',
+      'navbar',
+      'pagination',
+      'popovers',
+      'progress',
       //'scrollspy',
-//      'tooltips',
+      'tooltips',
     );
     foreach ($components as $c) {
       get_template_part('/template-parts/styleguide/bootstrap/'.$c);
@@ -35,11 +35,11 @@
     }
 
     $standards = array(
-//      'typography',
-//      'tables'
+      'typography',
+      'tables'
     );
     foreach ($standards as $s) {
-  //    get_template_part('/template-parts/styleguide/bootstrap/content/'.$s);
+      get_template_part('/template-parts/styleguide/bootstrap/content/'.$s);
       echo '<hr />';
     }
 
