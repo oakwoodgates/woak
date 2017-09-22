@@ -32,6 +32,34 @@
 </nav>
 
 <nav aria-label="...">
+  <ul class="pagination pagination-lg">
+    <li class="page-item disabled">
+      <a class="page-link" href="javascript:void(0)" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="javascript:void(0)">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<nav aria-label="...">
+  <ul class="pagination pagination-sm">
+    <li class="page-item disabled">
+      <a class="page-link" href="javascript:void(0)" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="javascript:void(0)">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<nav aria-label="...">
   <ul class="pagination">
     <li class="page-item disabled">
       <a class="page-link" href="javascript:void(0)" tabindex="-1">Previous</a>
@@ -59,34 +87,6 @@
         <span class="sr-only">(current)</span>
       </span>
     </li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="javascript:void(0)">Next</a>
-    </li>
-  </ul>
-</nav>
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg">
-    <li class="page-item disabled">
-      <a class="page-link" href="javascript:void(0)" tabindex="-1">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="javascript:void(0)">Next</a>
-    </li>
-  </ul>
-</nav>
-
-<nav aria-label="...">
-  <ul class="pagination pagination-sm">
-    <li class="page-item disabled">
-      <a class="page-link" href="javascript:void(0)" tabindex="-1">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
     <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
     <li class="page-item">
       <a class="page-link" href="javascript:void(0)">Next</a>
