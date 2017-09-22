@@ -10,7 +10,7 @@ $a = array(
       'icon'  => 'bath',
       'price'  => '39.67',
       'title' => 'Responsive',
-      'content'   => 'readable and usable.',
+      'content'   => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       'list'  => array(
         '0' => 'Cras justo odio',
         '1' => 'Dapibus ac facilisis in',
@@ -48,140 +48,29 @@ $a = array(
   ),
 );
 ?>
-<div class="container">
-  <div class="row text-center">
-    <?php $s = $a['section']; ?>
-    <?php foreach ($s as $k => $v) : ?>
-      <div class="col col-md-4">
-        <span><i class="fa fa-3x fa-<?php echo $v['icon'] ?>" aria-hidden="true"></i></span>
-        <h3 class="card-title"><?php echo $v['title'] ?></h3>
-        <p class="card-text"><?php echo $v['content'] ?></p>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</div>
-<hr class="ws" />
+<div class="row">
 
-<div class="container">
-  <div class="row text-center">
-    <?php $s = $a['section']; ?>
-    <?php foreach ($s as $k => $v) : ?>
-      <div class="col col-md-4">
-        <div class="card w-100">
-          <div class="card-header">
-            <i class="fa fa-3x fa-<?php echo $v['icon'] ?>" aria-hidden="true"></i>
-          </div>
-          <div class="card-body">
-            <h3 class="card-title"><?php echo $v['title'] ?></h3>
-            <p class="card-text"><?php echo $v['content'] ?></p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="container">
+    <div class="row text-center">
+      <?php $s = $a['section']; ?>
+      <?php foreach ($s as $k => $v) : ?>
+        <div class="col col-md-4 d-flex">
+          <div class="card w-100 border-0 bg-transparent">
+            <div class="card-header border-0 bg-transparent">
+              <i class="fa fa-3x fa-<?php echo $v['icon'] ?>" aria-hidden="true"></i>
+            </div>
+            <div class="card-body px-0">
+              <h3 class="card-title"><?php echo $v['title'] ?></h3>
+              <p class="card-text"><?php echo $v['content'] ?></p>
+            </div>
+            <div class="card-footer border-0 bg-transparent">
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</div>
-<hr class="ws" />
-
-
-<div class="container">
-  <div class="row text-center">
-    <?php $s = $a['section']; ?>
-    <?php foreach ($s as $k => $v) : ?>
-      <div class="col col-md-4 d-flex ">
-        <div class="card w-100">
-          <div class="card-header">
-            <i class="fa fa-3x fa-<?php echo $v['icon'] ?>" aria-hidden="true"></i>
-          </div>
-          <div class="card-body">
-            <h3 class="card-title"><?php echo $v['title'] ?></h3>
-            <p class="card-text"><?php echo $v['content'] ?></p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</div>
-<hr class="ws" />
-
-<div class="container">
-  <div class="row text-center">
-    <?php $s = $a['section']; ?>
-    <?php foreach ($s as $k => $v) : ?>
-      <div class="col col-md-4 d-flex ">
-        <div class="card w-100 border-0">
-          <div class="card-header border-0 bg-transparent">
-            <i class="fa fa-3x fa-<?php echo $v['icon'] ?>" aria-hidden="true"></i>
-          </div>
-          <div class="card-body px-0">
-            <h3 class="card-title"><?php echo $v['title'] ?></h3>
-            <p class="card-text"><?php echo $v['content'] ?></p>
-          </div>
-          <div class="card-footer border-0 bg-transparent">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</div>
-<hr class="ws" />
-
-<div class="container">
-  <div class="row text-center">
-    <?php $s = $a['section']; ?>
-    <?php foreach ($s as $k => $v) : ?>
-      <div class="col col-md-4 d-flex ">
-        <div class="card w-100">
-          <div class="card-header">
-            <h3 class="card-title"><?php echo $v['title'] ?></h3>
-          </div>
-          <div class="card-body">
-            <div class="display-4">$<?php echo $v['price'] ?></div>
-            <div class="font-italic">per month</div>
-          </div>
-          <ul class="list-group list-group-flush text-left">
-            <?php $l = $v['list']; ?>
-            <?php foreach ($l as $lg => $lv ) : ?>
-              <li class="list-group-item"><?php echo $lv; ?></li>
-            <?php endforeach; ?>
-          </ul>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</div>
-<hr class="ws" />
-
-<div class="container">
-  <div class="row d-flex ">
-    <?php $s = $a['section']; ?>
-    <?php foreach ($s as $k => $v) : ?>
-    <div class="col-lg-4 mb-4">
-      <div class="card w-100">
-        <h3 class="card-header"><?php echo $v['title'] ?></h3>
-        <div class="card-body">
-          <div class="display-4">$<?php echo $v['price'] ?></div>
-          <div class="font-italic">per month</div>
-        </div>
-        <ul class="list-group list-group-flush text-left">
-          <?php $l = $v['list']; ?>
-          <?php foreach ($l as $lg => $lv ) : ?>
-            <li class="list-group-item"><?php echo $lv; ?></li>
-          <?php endforeach; ?>
-          <li class="list-group-item"><a href="#" class="btn btn-primary">Go somewhere</a></li>
-        </ul>
-      </div>
+      <?php endforeach; ?>
     </div>
-    <?php endforeach; ?>
   </div>
+  <hr class="ws" />
+
 </div>
-<hr class="ws" />
