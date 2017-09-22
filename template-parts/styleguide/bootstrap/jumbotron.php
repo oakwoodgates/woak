@@ -11,10 +11,35 @@
   </p>
 </div>
 <p></p>
-<div class="jumbotron jumbotron-fluid">
+</div>
+
+<div class="jumbotron jumbotron-fluid text-center">
   <div class="container">
-    <h1 class="display-3">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h1 class="display-3">Fluid Jumbotron Section</h1>
+    <div class="row justify-content-md-center mt-3 mb-3">
+      <p class="col col-md-10 col-lg-8 lead text-muted">
+        This example has a lighter text here.<br />Full width, two buttons, optional backgrounds. Just beautiful.
+      </p>
+    </div>
+    <p>
+      <a href="javascript:void(0)" class="btn btn-primary">Main call to action</a>
+      <a href="javascript:void(0)" class="btn btn-secondary">Secondary action</a>
+    </p>
   </div>
 </div>
 <p></p>
+<div class="jumbotron jumbotron-fluid text-center bg-dark text-light">
+  <div class="container">
+    <h1 class="display-3">Fluid jumbotron</h1>
+    <div class="row justify-content-md-center">
+      <p class="col col-md-10 col-lg-8 lead">
+        Call extra attention to featured info. Make it short and sweet, but not too short so folks don't simply skip over it entirely.
+      </p>
+    </div>
+    <p class="mt-4">
+      <a href="javascript:void(0)" class="btn btn-success">Get Some</a>
+    </p>
+  </div>
+</div>
+<p></p>
+<div class="container">
