@@ -9,3 +9,14 @@ Text Domain:    woak
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 */
+/*
+.admin-bar .navbar.fixed-top {
+  margin-top: 32px;
+}
+#page{
+  margin-top: 56px
+}
+*/
+article::after{display:block;clear:both;content:""}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{width: 100%}
+.ws{margin-bottom: 2em;}
